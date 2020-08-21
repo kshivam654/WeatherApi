@@ -1,0 +1,22 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "description": "this is an weather api nodejs project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshivam654/WeatherApi.git"
+  },
+  "author": "Kumar Shivam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kshivam654/WeatherApi/issues"
+  },
+  "homepage": "https://github.com/kshivam654/WeatherApi#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
