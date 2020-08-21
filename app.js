@@ -4,5 +4,8 @@ const url = 'http://api.weatherapi.com/v1/current.json?key=6c53af46d0854f8783411
 
 request({ url: url }, (error, response) => {
     const data = JSON.parse(response.body)
-    console.log(data.location)
+    const lat = data.location.lat
+    const lon = data.location.lon
+    console.log("Lattitude: ", lat)
+    console.log("Longitude: ", lon)
 })
